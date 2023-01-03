@@ -1,0 +1,93 @@
+#container {
+    height: 550px;
+    width: 750px;
+    background: linear-gradient(rgb(5, 144, 236), skyblue);
+    margin-left: 280px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px darkblue;
+}
+
+#fcontainer {
+    height: 350px;
+    width: 750px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0px 10px violet;
+    position: relative;
+    overflow: hidden;
+}
+
+#descript {
+    height: 40px;
+    width: 400px;
+    background: linear-gradient(red, rgb(240, 58, 58));
+    margin-top: 20px;
+    margin-left: 170px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 2;
+    border-radius: 10px;
+    box-shadow: 3px 3px darkred;
+}
+
+#start {
+    height: 40px;
+    width: 100px;
+    background: rgb(3, 130, 248);
+    color: white;
+    margin-top: 20px;
+    font-size: 30px;
+    margin-left: 350px;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    border-radius: 10px;
+    transition: all 0.2s;
+}
+
+#score {
+    height: 40px;
+    width: 100px;
+    background: rgb(245, 245, 4);
+    margin-left: 645px;
+    box-shadow: 3px 3px rgb(251, 255, 3);
+    font-size: 20px;
+    text-align: center;
+    line-height: 2;
+}
+
+#life {
+    height: 40px;
+    width: 150px;
+    background: rgb(245, 245, 4);
+    border-radius: 7px;
+    text-align: center;
+    display: none;
+}
+
+#over {
+    top: 190px;
+    height: 180px;
+    width: 350px;
+    color: white;
+    left: 525px;
+    position: absolute;
+    background: linear-gradient(orange, orangered);
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1;
+    font-size: 30px;
+    display: none;
+}
+
+.lifeheart {
+    height: 30px;
+    width: 30px;
+    margin: 0 5px;
+}
+
+.fruit {
+    display: none;
+    position: absolute;
+}
